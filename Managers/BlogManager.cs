@@ -84,7 +84,6 @@ public class BlogManager
         }
         return blogModels;
     }
-
     private Blog IsExist(Guid blogId)
     {
         var blog = _dbContext.Blogs.FirstOrDefault(b => b.Id == blogId);
