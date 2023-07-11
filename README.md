@@ -1,19 +1,14 @@
-# Blog.API
+**How to start the application?**
+----------------
 
-- [ ] Implement user registration and authentication using JWT (JSON Web Tokens).
-- [ ] Implement the following functionalities for authenticated users:
+It is required to run the application on the docker due to the creating PostgreSQL database on docker to make it too convenient to use.
 
-    - Create a new blog post with a title, content, and tags.
-    - Retrieve a list of all blog posts.
-    - Write a comment on the blog post.
-    - Like and Save blog post.
-    - Count views.
-    - Retrieve a single blog post with comments.
-    - Update a blog post's details.
-    - Delete a blog post.
+You can easily run the application using [Docker](https://www.docker.com). 
+1.Install the Docker
+2.Clone the repository
+3. Enter `docker-compose build` to the terminal
+4. Enter `docker-compose up`  to the terminal
+5. Application will be avialable under http://localhost:3030/swagger/index.html.
 
-- [ ] Implement sorting, filtering (date), pagination.
-- [ ] Implement unit tests
-- [ ] Validate DTO models using FluentValidation
 
-> Feel free to modify or add additional features to the project as needed. 
+**What HTTP requests can be sent to the API?**
